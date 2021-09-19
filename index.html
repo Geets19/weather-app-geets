@@ -13,9 +13,14 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="sun.css" />
     <title>Weather App</title>
   </head>
   <body>
+    <div class="sun"></div>
+
+    <div class="moon"></div>
+
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
@@ -39,13 +44,16 @@
               </div>
             </div>
           </form>
+
           <div class="overview">
             <h1 id="city"></h1>
+
             <ul>
               <li>Last updated on <span id="date"></span></li>
               <li id="description"></li>
             </ul>
           </div>
+
           <div class="row">
             <div class="col-6">
               <div class="clearfix weather-temperature">
@@ -58,8 +66,8 @@
             </div>
             <div class="col-6">
               <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> km/h</li>
+                <li>Humidity 💧: <span id="humidity"></span>%</li>
+                <li>Wind 💨: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>
@@ -67,7 +75,7 @@
         </div>
         <small>
           <a href="https://github.com/Geets19/weather-app-geets" target="_blank"
-            >Open-source code</a
+            >Open-source code-GitHub</a
           >
           by Geetha Girithari
         </small>
